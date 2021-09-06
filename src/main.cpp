@@ -11,7 +11,7 @@ const char* mqttPassword = "rdd01";
 
 // Add your MQTT Broker IP address, example:
 //const char* mqtt_server = "192.168.1.144";
-const char* mqtt_server = "iot.mea.or.th:1884";
+const char* mqtt_server = "iot.mea.or.th";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
